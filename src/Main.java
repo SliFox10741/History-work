@@ -4,5 +4,7 @@ public class Main {
         SalesManager sale = new SalesManager(price);
         int max = sale.max();
         System.out.println("Максимальное значение - " + max);
+        int mean = sale.averagevalue();
+        System.out.println("Среднее значение - " + mean);
     }
 }
